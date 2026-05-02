@@ -8,7 +8,7 @@ import pandas as pd
 st.markdown("### Reigonal Economic Overview: Southern Ohio + Greenup County, KY")
 
 # import excel data sheet
-df = pd.read_excel(r"C:\Users\esova\OneDrive\Documents\2.0 county data for tableau (3).xlsx")
+df = pd.read_excel("2.0 county data for tableau.xlsx")
 
 df = df.set_index("County")
 
