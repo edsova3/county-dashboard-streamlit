@@ -1,0 +1,1623 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0410.0924                               -->
+<workbook original-version='18.1' source-build='2026.1.1 (20261.26.0410.0924)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (2.0 county data for tableau (2))' inline='true' name='federated.1ax3eue1eidx1p1ffl6i304c9m6f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2.0 county data for tableau (2)' name='excel-direct.1q24nvo0cqfraw17co5x30twnt07'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/esova/Downloads/2.0 county data for tableau (2).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1q24nvo0cqfraw17co5x30twnt07' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I6:no:A1:I6:0' header='yes' outcome='6'>
+            <column datatype='string' name='County' ordinal='0' />
+            <column datatype='integer' name='population_2025' ordinal='1' />
+            <column datatype='integer' name='population_2020' ordinal='2' />
+            <column datatype='real' name='population_change_pct' ordinal='3' />
+            <column datatype='integer' name='median_rent' ordinal='4' />
+            <column datatype='real' name='bachelors_pct' ordinal='5' />
+            <column datatype='integer' name='median_income' ordinal='6' />
+            <column datatype='real' name='unemployment_2022' ordinal='7' />
+            <column datatype='real' name='unemployment_2017' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I6:no:A1:I6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_2025</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population_2025]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population_2025</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population_2020]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population_2020</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_change_pct]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population_change_pct</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>median_rent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[median_rent]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>median_rent</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bachelors_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bachelors_pct]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bachelors_pct</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>median_income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[median_income]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>median_income</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unemployment_2022</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[unemployment_2022]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>unemployment_2022</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unemployment_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[unemployment_2017]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>unemployment_2017</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='p0.0%' name='[bachelors_pct]' role='measure' type='quantitative' />
+      <column caption='Median Income' datatype='integer' name='[median_income]' role='measure' type='quantitative' />
+      <column caption='Median Rent' datatype='integer' name='[median_rent]' role='measure' type='quantitative' />
+      <column caption='Population 2020' datatype='integer' name='[population_2020]' role='measure' type='quantitative' />
+      <column caption='Population 2025' datatype='integer' name='[population_2025]' role='measure' type='quantitative' />
+      <column caption='Population Change Pct' datatype='real' name='[population_change_pct]' role='measure' type='quantitative' />
+      <column caption='Unemployment 2017' datatype='real' name='[unemployment_2017]' role='measure' type='quantitative' />
+      <column caption='Unemployment 2022' datatype='real' default-format='n#,##0.0&quot;%&quot;;-#,##0.0&quot;%&quot;' name='[unemployment_2022]' role='measure' type='quantitative' />
+      <group caption='Action (County)' hidden='true' name='[Action (County)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[County]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='County' />
+        <field-sort-custom-order field='population_2025' />
+        <field-sort-custom-order field='population_2020' />
+        <field-sort-custom-order field='population_change_pct' />
+        <field-sort-custom-order field='median_rent' />
+        <field-sort-custom-order field='bachelors_pct' />
+        <field-sort-custom-order field='median_income' />
+        <field-sort-custom-order field='unemployment_2022' />
+        <field-sort-custom-order field='Calculation_2190567190773760' />
+        <field-sort-custom-order field='unemployment_2017' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_2E6EC3A1AEA34300A5971E9E6FAB1F20'>
+            <properties context=''>
+              <relation connection='excel-direct.1q24nvo0cqfraw17co5x30twnt07' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:I6:no:A1:I6:0' header='yes' outcome='6'>
+                  <column datatype='string' name='County' ordinal='0' />
+                  <column datatype='integer' name='population_2025' ordinal='1' />
+                  <column datatype='integer' name='population_2020' ordinal='2' />
+                  <column datatype='real' name='population_change_pct' ordinal='3' />
+                  <column datatype='integer' name='median_rent' ordinal='4' />
+                  <column datatype='real' name='bachelors_pct' ordinal='5' />
+                  <column datatype='integer' name='median_income' ordinal='6' />
+                  <column datatype='real' name='unemployment_2022' ordinal='7' />
+                  <column datatype='real' name='unemployment_2017' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (2.0 county data for tableau (2)) (2)' inline='true' name='federated.0wtp1xu1njyfyn14jtyt61uo9ulh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2.0 county data for tableau (2)' name='excel-direct.0te0v0r17ejjwe1ga5pym0p6a2oo'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/esova/Downloads/2.0 county data for tableau (2).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0te0v0r17ejjwe1ga5pym0p6a2oo' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:I6:no:A1:I6:0' header='yes' outcome='6'>
+            <column datatype='string' name='County' ordinal='0' />
+            <column datatype='integer' name='population_2025' ordinal='1' />
+            <column datatype='integer' name='population_2020' ordinal='2' />
+            <column datatype='real' name='population_change_pct' ordinal='3' />
+            <column datatype='integer' name='median_rent' ordinal='4' />
+            <column datatype='real' name='bachelors_pct' ordinal='5' />
+            <column datatype='integer' name='median_income' ordinal='6' />
+            <column datatype='real' name='unemployment_2022' ordinal='7' />
+            <column datatype='real' name='unemployment_2017' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I6:no:A1:I6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_2025</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population_2025]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population_2025</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population_2020]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population_2020</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_change_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_change_pct]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population_change_pct</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>median_rent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[median_rent]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>median_rent</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bachelors_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bachelors_pct]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bachelors_pct</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>median_income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[median_income]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>median_income</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unemployment_2022</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[unemployment_2022]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>unemployment_2022</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unemployment_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[unemployment_2017]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>unemployment_2017</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1]' role='measure' type='quantitative' />
+      <column caption='Bachelors Pct' datatype='real' name='[bachelors_pct]' role='measure' type='quantitative' />
+      <column caption='Median Income' datatype='integer' name='[median_income]' role='measure' type='quantitative' />
+      <column caption='Median Rent' datatype='integer' name='[median_rent]' role='measure' type='quantitative' />
+      <column caption='Population 2020' datatype='integer' name='[population_2020]' role='measure' type='quantitative' />
+      <column caption='Population 2025' datatype='integer' name='[population_2025]' role='measure' type='quantitative' />
+      <column caption='Population Change Pct' datatype='real' name='[population_change_pct]' role='measure' type='quantitative' />
+      <column caption='Unemployment 2017' datatype='real' name='[unemployment_2017]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='n#,##0&quot;%&quot;;-#,##0&quot;%&quot;' name='[unemployment_2022]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_036F6013105E4C9BAA6FF6A191DF6AB1'>
+            <properties context=''>
+              <relation connection='excel-direct.0te0v0r17ejjwe1ga5pym0p6a2oo' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:I6:no:A1:I6:0' header='yes' outcome='6'>
+                  <column datatype='string' name='County' ordinal='0' />
+                  <column datatype='integer' name='population_2025' ordinal='1' />
+                  <column datatype='integer' name='population_2020' ordinal='2' />
+                  <column datatype='real' name='population_change_pct' ordinal='3' />
+                  <column datatype='integer' name='median_rent' ordinal='4' />
+                  <column datatype='real' name='bachelors_pct' ordinal='5' />
+                  <column datatype='integer' name='median_income' ordinal='6' />
+                  <column datatype='real' name='unemployment_2022' ordinal='7' />
+                  <column datatype='real' name='unemployment_2017' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_C9DD4D9A61A347668126DB6E77013D4A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Median income by county (2022)' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_FE56BFC76C1F4164BBDC584728CF0108]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='% Bachelors degree attainment by county (2022)' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_C6402FD16F7D4D67B58EECCA38FE00FA]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Unemployment by county 2022' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='% Bachelors degree attainment by county (2022)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Bachelors degree (%) attainment by county (</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>2022)</run>
+            <run fontalignment='1'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (2.0 county data for tableau (2))' name='federated.1ax3eue1eidx1p1ffl6i304c9m6f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ax3eue1eidx1p1ffl6i304c9m6f'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='real' default-format='p0.0%' name='[bachelors_pct]' role='measure' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[bachelors_pct]' derivation='Sum' name='[sum:bachelors_pct:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[Action (County)]'>
+            <groupfilter function='level-members' level='[County]' user:ui-action-filter='[Action3_C6402FD16F7D4D67B58EECCA38FE00FA]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]' direction='DESC' using='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:bachelors_pct:qk]' />
+          <slices>
+            <column>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[Action (County)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:bachelors_pct:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[County: <[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'><![CDATA[Bachelors degree (2022): $<[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:bachelors_pct:qk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'>— Click to filter all charts —</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</rows>
+        <cols>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:bachelors_pct:qk]</cols>
+      </table>
+      <simple-id uuid='{87EAC951-EA56-4257-BB4C-271DC9924A5B}' />
+    </worksheet>
+    <worksheet name='Median household income by county'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (2.0 county data for tableau (2))' name='federated.1ax3eue1eidx1p1ffl6i304c9m6f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ax3eue1eidx1p1ffl6i304c9m6f'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column caption='Median Income' datatype='integer' name='[median_income]' role='measure' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[median_income]' derivation='Sum' name='[sum:median_income:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:median_income:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:median_income:qk]' value='c&quot;$&quot;#,##0;(&quot;$&quot;#,##0)' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-color' value='#59a14f' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</rows>
+        <cols>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:median_income:qk]</cols>
+      </table>
+      <simple-id uuid='{F9902D39-E2FA-4B07-8363-111EBEC033B1}' />
+    </worksheet>
+    <worksheet name='Median income by county (2022)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Median income by county (2022)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (2.0 county data for tableau (2))' name='federated.1ax3eue1eidx1p1ffl6i304c9m6f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ax3eue1eidx1p1ffl6i304c9m6f'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column caption='Median Income' datatype='integer' name='[median_income]' role='measure' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[median_income]' derivation='Sum' name='[sum:median_income:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[Action (County)]'>
+            <groupfilter function='level-members' level='[County]' user:ui-action-filter='[Action3_C6402FD16F7D4D67B58EECCA38FE00FA]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]' direction='DESC' using='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:median_income:qk]' />
+          <slices>
+            <column>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[Action (County)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[County: <[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'><![CDATA[Median Income (2022): $<[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:median_income:qk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'>— Click to filter all charts —</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</rows>
+        <cols>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:median_income:qk]</cols>
+      </table>
+      <simple-id uuid='{BEC6A6B3-3098-4FDC-B15F-F2C75CEDF4B7}' />
+    </worksheet>
+    <worksheet name='Population by county'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (2.0 county data for tableau (2))' name='federated.1ax3eue1eidx1p1ffl6i304c9m6f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ax3eue1eidx1p1ffl6i304c9m6f'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column caption='Population 2025' datatype='integer' name='[population_2025]' role='measure' type='quantitative' />
+            <column-instance column='[population_2025]' derivation='Sum' name='[sum:population_2025:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:population_2025:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]' value='248' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-color' value='#898989' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</rows>
+        <cols>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:population_2025:qk]</cols>
+      </table>
+      <simple-id uuid='{818BCB3B-C7E5-4ABC-AE8B-073BFB73FDB2}' />
+    </worksheet>
+    <worksheet name='Unemployment by county 2022'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Unemployment Rate (%) (2022)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (2.0 county data for tableau (2))' name='federated.1ax3eue1eidx1p1ffl6i304c9m6f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ax3eue1eidx1p1ffl6i304c9m6f'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[unemployment_2022]' derivation='Sum' name='[sum:unemployment_2022:qk]' pivot='key' type='quantitative' />
+            <column caption='Unemployment 2022' datatype='real' default-format='n#,##0.0&quot;%&quot;;-#,##0.0&quot;%&quot;' name='[unemployment_2022]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[Action (County)]'>
+            <groupfilter function='level-members' level='[County]' user:ui-action-filter='[Action2_FE56BFC76C1F4164BBDC584728CF0108]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]' direction='DESC' using='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:unemployment_2022:qk]' />
+          <slices>
+            <column>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[Action (County)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:unemployment_2022:qk]' value='96' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:unemployment_2022:qk]' value='n#,##0.00&quot;%&quot;;-#,##0.00&quot;%&quot;' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[County: <[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'><![CDATA[Unemployment Rate (2022): <[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:unemployment_2022:qk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'>— Click to filter all charts —</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-color' value='#aa0000' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</rows>
+        <cols>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[sum:unemployment_2022:qk]</cols>
+      </table>
+      <simple-id uuid='{0F234886-EDF1-4F5A-80DC-37472B6FA3DF}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='9955' id='7' type-v2='text' w='99292' x='354' y='603'>
+            <formatted-text>
+              <run fontalignment='1' fontsize='20'>County Socioeconomic Comparison of Selected Counties (2022)</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run fontalignment='1' fontsize='15'>Click a county to filter all charts</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='79412' id='8' param='vert' type-v2='layout-flow' w='99292' x='354' y='10558'>
+            <zone h='25838' id='9' name='Median income by county (2022)' w='99292' x='354' y='10558'>
+              <layout-cache cell-count-h='5' non-cell-size-h='128' type-h='cell' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='25838' id='10' name='% Bachelors degree attainment by county (2022)' w='99292' x='354' y='36396'>
+              <layout-cache cell-count-h='5' non-cell-size-h='128' type-h='cell' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='27723' id='11' name='Unemployment by county 2022' w='99292' x='354' y='62234'>
+              <layout-cache cell-count-h='5' non-cell-size-h='153' type-h='cell' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='9427' id='12' type-v2='text' w='99292' x='354' y='89970'>
+            <formatted-text>
+              <run fontcolor='#000000' fontname='Benton Sans Book'>Median income and bachelor’s degree attainment show a positive relationship, with higher-income counties tending to have higher education levels. Unemployment shows a slight inverse relationship, decreasing as income rises. Ross and Scioto counties stand out as stronger performers across multiple metrics, which aligns with their larger population centers in the region.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='27' param='vert' type-v2='layout-flow' w='99292' x='354' y='603'>
+                <zone forceUpdate='true' h='9955' id='7' type-v2='text' w='99292' x='354' y='603'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='20'>County Socioeconomic Comparison of Selected Counties (2022)</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontsize='15'>Click a county to filter all charts</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='199' h='25838' id='9' is-fixed='true' name='Median income by county (2022)' w='99292' x='354' y='10558'>
+                  <layout-cache cell-count-h='5' non-cell-size-h='128' type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='199' h='25838' id='10' is-fixed='true' name='% Bachelors degree attainment by county (2022)' w='99292' x='354' y='36396'>
+                  <layout-cache cell-count-h='5' non-cell-size-h='128' type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='214' h='27723' id='11' is-fixed='true' name='Unemployment by county 2022' w='99292' x='354' y='62234'>
+                  <layout-cache cell-count-h='5' non-cell-size-h='153' type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='9427' id='12' type-v2='text' w='99292' x='354' y='89970'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Benton Sans Book'>Median income and bachelor’s degree attainment show a positive relationship, with higher-income counties tending to have higher education levels. Unemployment shows a slight inverse relationship, decreasing as income rises. Ross and Scioto counties stand out as stronger performers across multiple metrics, which aligns with their larger population centers in the region.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EC2C1FBD-D3C8-45F6-BEF6-0F35AFB88084}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' name='Population by county'>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{19C17A43-DB96-4D21-BD52-D930551F240C}' />
+    </window>
+    <window class='worksheet' name='Median household income by county'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BFB69AD9-D605-4A1E-9477-76EE6365472F}' />
+    </window>
+    <window class='worksheet' name='Unemployment by county 2022'>
+      <cards>
+        <edge name='left'>
+          <strip size='131'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EEB96B77-CBE3-4CE8-8F9B-7DB1374D7DAE}' />
+    </window>
+    <window class='worksheet' name='Median income by county (2022)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CAD98BA2-9450-4BE0-A085-1397DF522604}' />
+    </window>
+    <window class='worksheet' name='% Bachelors degree attainment by county (2022)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ax3eue1eidx1p1ffl6i304c9m6f].[none:County:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F1C19041-11CB-4A3F-BC6C-CA9CEEE2BBFA}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='% Bachelors degree attainment by county (2022)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Median income by county (2022)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Unemployment by county 2022'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{ADB20868-AB3A-4DC3-9FBF-17E986553D83}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='% Bachelors degree attainment by county (2022)' width='192'>
+      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
+      FC8T919zhcCsLPFiPAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Median household income by county' width='192'>
+      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
+      PwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Median income by county (2022)' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Population by county' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Unemployment by county 2022' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
